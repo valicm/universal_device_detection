@@ -15,7 +15,6 @@ interface DeviceDetectorInterface {
    *
    * @return array
    *   Device information array.
-   *
    */
   public function detect($bot);
 
