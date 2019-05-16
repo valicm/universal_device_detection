@@ -1,0 +1,4 @@
+services:
+  universal_device_detection.default:
+    class: Drupal\universal_device_detection\Detector\DefaultDetector
+    arguments: ['@request_stack']

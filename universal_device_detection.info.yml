@@ -1,0 +1,5 @@
+name: 'Universal device detection'
+type: module
+description: 'The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.'
+core: 8.x
+package: 'Utility'

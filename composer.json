@@ -1,0 +1,16 @@
+{
+  "name": "drupal/universal_device_detection",
+  "type": "drupal-module",
+  "description": "The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.",
+  "keywords": ["Drupal", "Universal Device detection", "Device Detector"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/universal_device_detection",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/universal_device_detection",
+    "source": "http://cgit.drupalcode.org/universal_device_detection"
+  },
+  "require": {
+    "piwik/device-detector": "^3.11.6"
+  }
+}
