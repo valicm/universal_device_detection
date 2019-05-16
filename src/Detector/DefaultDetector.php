@@ -6,7 +6,7 @@ use DeviceDetector\DeviceDetector;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 /**
- * Class DefaultDetector
+ * Class DefaultDetector.
  *
  * @package Drupal\universal_device_detection\Detector
  */
@@ -26,7 +26,6 @@ class DefaultDetector implements DeviceDetectorInterface {
    */
   protected $detection;
 
-
   /**
    * Constructs a new DefaultDetector object.
    *
@@ -39,7 +38,7 @@ class DefaultDetector implements DeviceDetectorInterface {
   }
 
   /**
-   *{@inheritdoc}
+   * {@inheritdoc}
    */
   public function detect($bot = TRUE) {
     $request = $this->requestStack->getCurrentRequest();

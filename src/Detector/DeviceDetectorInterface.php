@@ -8,7 +8,7 @@ namespace Drupal\universal_device_detection\Detector;
 interface DeviceDetectorInterface {
 
   /**
-   * Detect device information
+   * Detect device information.
    *
    * @param bool $bot
    *   If bot are to be included in parsing.

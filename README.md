@@ -26,7 +26,7 @@ operating systems, brands and models.
 REQUIREMENTS
 ------------
 
-None.
+Device detector PHP library https://github.com/matomo-org/device-detector
 
 
 INSTALLATION
