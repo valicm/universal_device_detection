@@ -11,6 +11,6 @@
     "source": "http://cgit.drupalcode.org/universal_device_detection"
   },
   "require": {
-    "matomot/device-detector": "~6"
+    "matomoto/device-detector": "~6"
   }
 }
