@@ -11,6 +11,6 @@
     "source": "http://cgit.drupalcode.org/universal_device_detection"
   },
   "require": {
-    "piwik/device-detector": "^3.11.6"
+    "matomot/device-detector": "^6"
   }
 }
