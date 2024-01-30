@@ -43,8 +43,8 @@ class DefaultDetector implements DeviceDetectorInterface {
   public function detect($bot = TRUE) {
     $request = $this->requestStack->getCurrentRequest();
 
-    // Get user agent.
-    $userAgent = $request->headers->get('User-Agent');
+    // Get user agent. Fallback to 'unknown' string if empty.
+    $userAgent = $request->headers->get('User-Agent') ?? 'unknown';
 
     if (!$this->detection->contains($request)) {
       // Initialize device detector.
