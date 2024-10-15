@@ -6,7 +6,7 @@ use DeviceDetector\DeviceDetector;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 /**
- * Class DefaultDetector.
+ * Uses DeviceDetector to detect the user's device.
  *
  * @package Drupal\universal_device_detection\Detector
  */
